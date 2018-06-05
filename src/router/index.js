@@ -24,5 +24,10 @@ export default new Router({
       name: 'SignUp',
       component: SignUp
     },
+    {
+      path: '/posts',
+      name: 'Posts',
+      component: Posts
+    }
   ]
 })
